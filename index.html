@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Practice</title>
+</head>
+<body class="bg-slate-900 w-full text-yellow-100 font-mono">
+    <section class="w-4/5 mx-auto my-10">
+
+
+
+        <section class="border rounded-md">
+            <h1 class="text-4xl font-bold text-center my-5 text-white">My Text Editor</h1>
+            <div class="w-11/12 mx-auto">
+                <ul class="flex justify-around py-2">
+                    <div class="flex gap-5">
+                        <li id="bold"><i class="fa-solid fa-bold"></i></li>
+                        <li id="ittalic"><i class="fa-solid fa-italic"></i></li>
+                        <li id="underline"><i class="fa-solid fa-underline"></i></li>
+                    </div>
+                    
+                    <div class="flex gap-5">
+                        <li id="textLeft"><i class="fa-solid fa-align-left"></i></li>
+                        <li id="textRight"><i class="fa-solid fa-align-right"></i></li>
+                        <li id="textCenter"><i class="fa-solid fa-align-center"></i></li>
+                        <li id="justify"><i class="fa-solid fa-align-justify"></i></li>
+                    </div>
+                    <div class="flex gap-5">
+                        <li><input type="number" class="block bg-transparent border rounded-md w-20" id="inputValueSize"><label for="" class="text-slate-300 opacity-30">Font Size</label></li>
+                        <li id="case" class="cursor-pointer">ABC</li>
+                        <li><input type="color" name="" id="fontColor" class="block border-none bg-transparent rounded-md outline-none w-20" ><label for="" class="text-slate-300 opacity-30">Font Color</label></li>
+                    </div>
+                </ul>
+                <hr class="mb-5">
+
+            </div>
+            <textarea name="textarea" id="textArea" class="w-11/12 mx-auto block mb-10  rounded-md text-2xl bg-slate-300 text-black p-5 outline-none" rows="10"></textarea>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="javascript.js"></script>
+</body>
+</html>
